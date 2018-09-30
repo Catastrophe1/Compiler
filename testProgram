@@ -1,0 +1,21 @@
+main{
+	int i;
+	i = 1;
+	while(i <= 100) {
+	    int j;
+	    j = 2;
+	    char t;
+	    t = 'd';
+	    int flag;
+	    flag = 1;
+	    while(j < i / 2) {
+            if(i / j * j == i) {
+                j = i / 2;
+                flag = 0;
+            }
+	    }
+	    if(flag == 1) {
+	        write i;
+	    }
+	}
+}
